@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Book Shelf</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="designer">
+        <p>Designed By Bereket Lemma </p>
+    </div>
+    <div class="container">
+        <div class="logo">
+                <h1>My Bookshelf</h1>
+        </div>
+        <div class="search">
+            <div class="category">
+                    <span>Search By: </span>
+                    <input type="checkbox" name="check" id="all" checked><span>All</span>
+                    <input type="checkbox" name="check" id="author"><span>Author</span>
+                    <input type="checkbox" name="check" id="title"><span>Title</span>
+            </div>
+            <div class="search-bar">
+                <br>
+                <input class="input" type="text" placeholder="Search for a book">
+                <button class="btn" onclick="search()">Search</button>
+            </div>    
+        </div>
+        <div class="results-found">
+                <p>Search Results: <span class="result-found"></span> </p>
+        </div>
+        <div class="search-result"></div>
+        
+    </div>
+    
+
+    <script src="test.js"></script>
+</body>
+</html>
