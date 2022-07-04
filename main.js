@@ -1,4 +1,4 @@
-        /* My Bookshelf: Library Managment system with simple UI*/
+        /* MyShelf: Simple Book Search Engine with simple UI*/
         /* Designed by Bereket Lemma */
 
 
